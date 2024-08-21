@@ -1,0 +1,40 @@
+.container{
+  width: 300px;
+  padding: 20px;
+}
+
+.buttonContainer{
+  display: flex;
+  gap: 4px;
+  justify-content: end;
+}
+
+.saveButton{
+  background-color: green;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 20px;
+
+}
+.saveButton:hover{
+  background-color: green;
+}
+.saveButton:disabled{
+  opacity: 0.3;
+  cursor: default;
+}
+
+.cancelButton{
+  background-color: grey;
+  padding: 8px 12px;
+  color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.cancelButton:disabled{
+  opacity: 0.3;
+  cursor: default;
+}
